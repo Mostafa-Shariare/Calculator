@@ -1,0 +1,73 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(46, 46, 46, 0.132);
+
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: rgba(71, 68, 68, 0.896);
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(67, 64, 64, 0.532);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.OperatorButton{
+    background-color: rgba(248, 248, 12, 0.663);
+    color: white;
+
+}
+
+button:hover{
+    background-color: rgba(71, 68, 68, 0.933);
+}
+
+.OperatorButton:hover{
+
+    background-color: rgba(248, 248, 12, 0.8);
+}
+
+button:active{
+    background-color: rgb(71, 68, 68);
+}
+
+.OperatorButton:active{
+
+    background-color: rgb(248, 248, 12);
+}
