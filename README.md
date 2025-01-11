@@ -30,7 +30,7 @@ To use the calculator locally, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/your-username/Calculator.git
 
 Navigate to the project directory:
 
